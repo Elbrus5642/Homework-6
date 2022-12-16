@@ -32,4 +32,4 @@ float x_root = 0;
 float y_root = 0;
 x_root = (b2 - b1) / (k1 - k2);
 y_root = k1 *((b2 - b1) / (k1 - k2))  + b1;
-Console.WriteLine($"Координаты точки пересечения прямых: x= {x_root} y = {y_root} ");
+Console.WriteLine($"Координаты точки пересечения прямых: ({x_root} ; {y_root}) ");
